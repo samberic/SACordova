@@ -3,7 +3,7 @@ SACordova
 This project was derived from iOS Phonegap Plugin.
     https://github.com/urbanairship/ios-phonegap-plugin
 
-Using the Urban Airship Plugin Sample for PhoneGap(Cordova) 1.5.0
+Using the Urban Airship Plugin Sample for PhoneGap(Cordova) 1.8.0
 -----------------------------------------------------------------
  1) Fill in your app key and secret in AppDelegate.m
  2) Update the project with your bundle ID and signing settings
