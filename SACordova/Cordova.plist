@@ -21,9 +21,13 @@
 	<key>OpenAllWhitelistURLsInWebView</key>
 	<false/>
 	<key>ExternalHosts</key>
-	<array/>
+	<array>
+		<string>*.urbanairship.com</string>
+	</array>
 	<key>Plugins</key>
 	<dict>
+		<key>pushnotification</key>
+		<string>PushNotification</string>
 		<key>Logger</key>
 		<string>CDVLogger</string>
 		<key>Compass</key>

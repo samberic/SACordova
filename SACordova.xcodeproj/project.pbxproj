@@ -34,9 +34,11 @@
 		22DCF247159212F200D92CC0 /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DCF246159212F200D92CC0 /* Default@2x~iphone.png */; };
 		22DCF249159212F300D92CC0 /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22DCF248159212F300D92CC0 /* Capture.bundle */; };
 		22DCF24B159212F300D92CC0 /* Cordova.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22DCF24A159212F300D92CC0 /* Cordova.plist */; };
-		22DCF24F159212F300D92CC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DCF24E159212F300D92CC0 /* AppDelegate.m */; };
 		22DCF252159212F300D92CC0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DCF251159212F300D92CC0 /* MainViewController.m */; };
 		22DCF254159212F300D92CC0 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22DCF253159212F300D92CC0 /* MainViewController.xib */; };
+		22DCF25F1592134A00D92CC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DCF25E1592134A00D92CC0 /* AppDelegate.m */; };
+		22DCF261159213B400D92CC0 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 22DCF260159213B400D92CC0 /* www */; };
+		22DCF264159213F500D92CC0 /* PushNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DCF263159213F500D92CC0 /* PushNotification.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,10 +56,10 @@
 		22DCF21A159212F200D92CC0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		22DCF21C159212F200D92CC0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		22DCF21E159212F200D92CC0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		22DCF222159212F200D92CC0 /* SACordova-Info.plist */ = {isa = PBXFileReference; path = "SACordova-Info.plist"; sourceTree = "<group>"; };
+		22DCF222159212F200D92CC0 /* SACordova-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SACordova-Info.plist"; sourceTree = "<group>"; };
 		22DCF224159212F200D92CC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22DCF226159212F200D92CC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		22DCF228159212F200D92CC0 /* SACordova-Prefix.pch */ = {isa = PBXFileReference; path = "SACordova-Prefix.pch"; sourceTree = "<group>"; };
+		22DCF228159212F200D92CC0 /* SACordova-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SACordova-Prefix.pch"; sourceTree = "<group>"; };
 		22DCF229159212F200D92CC0 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		22DCF22E159212F200D92CC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		22DCF232159212F200D92CC0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -70,13 +72,17 @@
 		22DCF246159212F200D92CC0 /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x~iphone.png"; path = "Resources/splash/Default@2x~iphone.png"; sourceTree = "<group>"; };
 		22DCF248159212F300D92CC0 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		22DCF24A159212F300D92CC0 /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		22DCF24D159212F300D92CC0 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
-		22DCF24E159212F300D92CC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		22DCF250159212F300D92CC0 /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		22DCF250159212F300D92CC0 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		22DCF251159212F300D92CC0 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		22DCF253159212F300D92CC0 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		22DCF256159212F300D92CC0 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
-		22DCF257159212F300D92CC0 /* verify.sh */ = {isa = PBXFileReference; path = verify.sh; sourceTree = "<group>"; };
+		22DCF256159212F300D92CC0 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		22DCF257159212F300D92CC0 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		22DCF25D1592134A00D92CC0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		22DCF25E1592134A00D92CC0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		22DCF260159213B400D92CC0 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = SACordova/www; sourceTree = "<group>"; };
+		22DCF262159213F500D92CC0 /* PushNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushNotification.h; sourceTree = "<group>"; };
+		22DCF263159213F500D92CC0 /* PushNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushNotification.m; sourceTree = "<group>"; };
+		22DCF2651592269F00D92CC0 /* SACordova.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SACordova.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,7 @@
 		22DCF1F4159212F200D92CC0 = {
 			isa = PBXGroup;
 			children = (
+				22DCF260159213B400D92CC0 /* www */,
 				22DCF220159212F200D92CC0 /* SACordova */,
 				22DCF205159212F200D92CC0 /* Frameworks */,
 				22DCF203159212F200D92CC0 /* Products */,
@@ -151,6 +158,7 @@
 		22DCF220159212F200D92CC0 /* SACordova */ = {
 			isa = PBXGroup;
 			children = (
+				22DCF2651592269F00D92CC0 /* SACordova.entitlements */,
 				22DCF229159212F200D92CC0 /* Cordova.framework */,
 				22DCF22B159212F200D92CC0 /* Resources */,
 				22DCF24C159212F300D92CC0 /* Classes */,
@@ -242,8 +250,8 @@
 		22DCF24C159212F300D92CC0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				22DCF24D159212F300D92CC0 /* AppDelegate.h */,
-				22DCF24E159212F300D92CC0 /* AppDelegate.m */,
+				22DCF25D1592134A00D92CC0 /* AppDelegate.h */,
+				22DCF25E1592134A00D92CC0 /* AppDelegate.m */,
 				22DCF250159212F300D92CC0 /* MainViewController.h */,
 				22DCF251159212F300D92CC0 /* MainViewController.m */,
 			);
@@ -253,6 +261,8 @@
 		22DCF255159212F300D92CC0 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				22DCF262159213F500D92CC0 /* PushNotification.h */,
+				22DCF263159213F500D92CC0 /* PushNotification.m */,
 				22DCF256159212F300D92CC0 /* README */,
 			);
 			name = Plugins;
@@ -327,6 +337,7 @@
 				22DCF249159212F300D92CC0 /* Capture.bundle in Resources */,
 				22DCF24B159212F300D92CC0 /* Cordova.plist in Resources */,
 				22DCF254159212F300D92CC0 /* MainViewController.xib in Resources */,
+				22DCF261159213B400D92CC0 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,8 +365,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				22DCF227159212F200D92CC0 /* main.m in Sources */,
-				22DCF24F159212F300D92CC0 /* AppDelegate.m in Sources */,
 				22DCF252159212F300D92CC0 /* MainViewController.m in Sources */,
+				22DCF25F1592134A00D92CC0 /* AppDelegate.m in Sources */,
+				22DCF264159213F500D92CC0 /* PushNotification.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +476,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_ENTITLEMENTS = SACordova/SACordova.entitlements;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/Cordova/Frameworks;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -493,6 +506,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_ENTITLEMENTS = SACordova/SACordova.entitlements;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/Cordova/Frameworks;
