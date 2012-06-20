@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SACordova' target in the 'SACordova' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
